@@ -1,0 +1,20 @@
+.contacts {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (min-width: 992px) {
+    .contacts {
+        flex-direction: row;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .map {
+        width: 450px;
+        height: 300px;
+    }
+
+}

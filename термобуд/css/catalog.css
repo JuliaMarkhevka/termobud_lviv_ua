@@ -1,0 +1,20 @@
+ul li,
+.eps-type {
+    list-style-type: none;
+}
+
+.products-list,
+.eps-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.products-list .dropdown:active .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.eps-type {}
+
+.products-title {}

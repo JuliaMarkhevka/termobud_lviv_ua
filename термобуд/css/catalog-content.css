@@ -1,0 +1,36 @@
+.catalog-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.eps {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 15%;
+}
+
+.eps-type {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 992px) {
+    .catalog-content {
+        flex-direction: row;
+    }
+
+    .eps {
+
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width: 992px) {
+    eps-type {
+        width: 100%;
+    }
+}
